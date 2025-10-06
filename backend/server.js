@@ -9,7 +9,7 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: "https://neura-ai-gpt-app.vercel.app/", // Vercel frontend URL
+  origin: "https://neura-ai-gpt-app.vercel.app", // Vercel frontend URL
   methods: ["GET", "POST"],
 }));
 app.use(express.json());
