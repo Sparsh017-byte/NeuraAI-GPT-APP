@@ -196,6 +196,9 @@
     }
 }
 @media (max-width:600px){
+    .result-data img{
+        visibility: hidden;
+    }
     .main-bottom{
         width: 100%;
     }
